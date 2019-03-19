@@ -199,10 +199,50 @@ def analyze_file(in_file):
     print("analyzing file '%s'" % in_file)
     return parser.parse(open_crlf_lf(in_file))
 
+
+
 # extract the bites that interest us for the production optimizer
-# TODO
 def filter_data(data):
-    return data
+    ret = {'unit': {}, 'support': {}, 'equipement': {}}
+
+    archetype_list = set([])
+
+    # scan units
+    for s in data['sub_units']:
+        if 'group' in data['sub_units'][s]:
+            if data['sub_units'][s]['group'] == 'support':
+                ret['support'][s] = {
+                    'need': data['sub_units'][s]['need']
+                }
+            else:
+                ret['unit'][s] = {
+                    'need': data['sub_units'][s]['need']
+                }
+            for a in data['sub_units'][s]['need']:
+                archetype_list.add(a)
+
+    # scan for equipement
+    archetype_list2 = set([])
+    for s in data['equipments']:
+        equipement = data['equipments'][s]
+        if 'archetype' in equipement and \
+            equipement['archetype'] in archetype_list and \
+            'year' in equipement:
+                year = equipement['year']
+                archetype = equipement['archetype']
+                if 'build_cost_ic' in equipement:
+                    build_cost_ic = equipement['build_cost_ic']
+                else:
+                    build_cost_ic = data['equipments'][archetype]['build_cost_ic']
+
+                if year not in ret['equipement']:
+                    ret['equipement'][year] = {}
+                ret['equipement'][year][archetype] = {'cost': float(build_cost_ic)}
+                archetype_list2.add(archetype)
+
+    if archetype_list2 != archetype_list:
+        raise Exception("failed to recover all the equipement types")
+    return ret
 
 def main():
 
