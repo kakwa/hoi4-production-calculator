@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+dump.json
+parser.out
+parsetab.py
+parsetab.pyc
+
+__pycache__
