@@ -203,21 +203,21 @@ def analyze_file(in_file):
 
 # extract the bites that interest us for the production optimizer
 def filter_data(data):
-    ret = {'unit': {}, 'support': {}, 'equipement': {}}
+    ret = {'unit': {}, 'equipement': {}}
 
     archetype_list = set([])
 
     # scan units
     for s in data['sub_units']:
         if 'group' in data['sub_units'][s]:
-            if data['sub_units'][s]['group'] == 'support':
-                ret['support'][s] = {
-                    'need': data['sub_units'][s]['need']
-                }
-            else:
-                ret['unit'][s] = {
-                    'need': data['sub_units'][s]['need']
-                }
+            sub_unit = data['sub_units'][s]
+            group = data['sub_units'][s]['group']
+
+            if group not in ret['unit']:
+                ret['unit'][group] = {}
+            ret['unit'][group][s] = {
+                    'need': sub_unit['need']
+            }
             for a in data['sub_units'][s]['need']:
                 archetype_list.add(a)
 
