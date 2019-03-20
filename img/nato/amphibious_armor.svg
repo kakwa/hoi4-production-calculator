@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="170"
+   height="106"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="amphibious_armor.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1534"
+     inkscape:window-height="1420"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="5.2908225"
+     inkscape:cx="84.359984"
+     inkscape:cy="49.258788"
+     inkscape:window-x="2560"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <rect
+     x="1.5"
+     y="1.5"
+     height="103"
+     width="167"
+     fill="#fff"
+     stroke="#000"
+     stroke-width="3"
+     id="rect2" />
+  <ellipse
+     cx="85"
+     cy="52.5"
+     rx="60"
+     ry="23.25"
+     id="ellipse4"
+     stroke-width="3"
+     stroke="#000"
+     fill="none" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:3"
+     d="m 168,99.194972 c -8,0 -8,-19 -19,-19 -11,0 -11,19 -21,19 -11,0 -10,-19 -21,-19 -11.000001,0 -10.000001,19 -21.000001,19 -11,0 -10,-19 -21,-19 -11,0 -9,19 -21,19 -12,0 -10,-19 -21,-19 -11,0 -10,19 -20.9999999,19"
+     id="path8" />
+</svg>
