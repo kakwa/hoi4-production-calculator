@@ -1,0 +1,511 @@
+{
+  "equipement": {
+    "1914": {
+      "light_tank_equipment": {
+        "cost": 7.0
+      }
+    },
+    "1918": {
+      "infantry_equipment": {
+        "cost": 0.4
+      },
+      "support_equipment": {
+        "cost": 4.0
+      }
+    },
+    "1934": {
+      "amphibious_tank_equipment": {
+        "cost": 10.0
+      },
+      "artillery_equipment": {
+        "cost": 3.5
+      },
+      "heavy_tank_aa_equipment": {
+        "cost": 25.0
+      },
+      "heavy_tank_artillery_equipment": {
+        "cost": 25.0
+      },
+      "heavy_tank_destroyer_equipment": {
+        "cost": 25.0
+      },
+      "heavy_tank_equipment": {
+        "cost": 25.0
+      },
+      "light_tank_aa_equipment": {
+        "cost": 10.0
+      },
+      "light_tank_artillery_equipment": {
+        "cost": 8.0
+      },
+      "light_tank_destroyer_equipment": {
+        "cost": 8.0
+      },
+      "light_tank_equipment": {
+        "cost": 8.0
+      }
+    },
+    "1936": {
+      "anti_air_equipment": {
+        "cost": 4.0
+      },
+      "anti_tank_equipment": {
+        "cost": 4.0
+      },
+      "infantry_equipment": {
+        "cost": 0.5
+      },
+      "light_tank_aa_equipment": {
+        "cost": 11.0
+      },
+      "light_tank_artillery_equipment": {
+        "cost": 9.0
+      },
+      "light_tank_destroyer_equipment": {
+        "cost": 9.0
+      },
+      "light_tank_equipment": {
+        "cost": 9.0
+      },
+      "motorized_equipment": {
+        "cost": 2.5
+      }
+    },
+    "1939": {
+      "amphibious_tank_equipment": {
+        "cost": 13.0
+      },
+      "artillery_equipment": {
+        "cost": 4.0
+      },
+      "infantry_equipment": {
+        "cost": 0.6
+      },
+      "medium_tank_aa_equipment": {
+        "cost": 12.0
+      },
+      "medium_tank_artillery_equipment": {
+        "cost": 12.0
+      },
+      "medium_tank_destroyer_equipment": {
+        "cost": 12.0
+      },
+      "medium_tank_equipment": {
+        "cost": 12.0
+      },
+      "motorized_rocket_equipment": {
+        "cost": 12.0
+      }
+    },
+    "1940": {
+      "amphibious_mechanized_equipment": {
+        "cost": 8.0
+      },
+      "anti_air_equipment": {
+        "cost": 5.0
+      },
+      "anti_tank_equipment": {
+        "cost": 5.0
+      },
+      "mechanized_equipment": {
+        "cost": 8.0
+      },
+      "rocket_artillery_equipment": {
+        "cost": 4.0
+      }
+    },
+    "1941": {
+      "heavy_tank_aa_equipment": {
+        "cost": 27.0
+      },
+      "heavy_tank_artillery_equipment": {
+        "cost": 27.0
+      },
+      "heavy_tank_destroyer_equipment": {
+        "cost": 27.0
+      },
+      "heavy_tank_equipment": {
+        "cost": 27.0
+      },
+      "light_tank_aa_equipment": {
+        "cost": 12.0
+      },
+      "light_tank_artillery_equipment": {
+        "cost": 10.0
+      },
+      "light_tank_destroyer_equipment": {
+        "cost": 10.0
+      },
+      "light_tank_equipment": {
+        "cost": 10.0
+      },
+      "medium_tank_aa_equipment": {
+        "cost": 13.0
+      },
+      "medium_tank_artillery_equipment": {
+        "cost": 13.0
+      },
+      "medium_tank_destroyer_equipment": {
+        "cost": 13.0
+      },
+      "medium_tank_equipment": {
+        "cost": 13.0
+      }
+    },
+    "1942": {
+      "amphibious_mechanized_equipment": {
+        "cost": 10.0
+      },
+      "artillery_equipment": {
+        "cost": 4.5
+      },
+      "infantry_equipment": {
+        "cost": 0.7
+      },
+      "mechanized_equipment": {
+        "cost": 10.0
+      }
+    },
+    "1943": {
+      "anti_air_equipment": {
+        "cost": 6.0
+      },
+      "anti_tank_equipment": {
+        "cost": 6.0
+      },
+      "heavy_tank_aa_equipment": {
+        "cost": 30.0
+      },
+      "heavy_tank_artillery_equipment": {
+        "cost": 30.0
+      },
+      "heavy_tank_destroyer_equipment": {
+        "cost": 30.0
+      },
+      "heavy_tank_equipment": {
+        "cost": 30.0
+      },
+      "medium_tank_aa_equipment": {
+        "cost": 14.0
+      },
+      "medium_tank_artillery_equipment": {
+        "cost": 14.0
+      },
+      "medium_tank_destroyer_equipment": {
+        "cost": 14.0
+      },
+      "medium_tank_equipment": {
+        "cost": 14.0
+      },
+      "rocket_artillery_equipment": {
+        "cost": 5.0
+      },
+      "super_heavy_tank_aa_equipment": {
+        "cost": 100.0
+      },
+      "super_heavy_tank_artillery_equipment": {
+        "cost": 100.0
+      },
+      "super_heavy_tank_destroyer_equipment": {
+        "cost": 100.0
+      },
+      "super_heavy_tank_equipment": {
+        "cost": 100.0
+      }
+    },
+    "1944": {
+      "mechanized_equipment": {
+        "cost": 12.0
+      }
+    },
+    "1945": {
+      "modern_tank_aa_equipment": {
+        "cost": 28.0
+      },
+      "modern_tank_artillery_equipment": {
+        "cost": 28.0
+      },
+      "modern_tank_destroyer_equipment": {
+        "cost": 28.0
+      },
+      "modern_tank_equipment": {
+        "cost": 28.0
+      }
+    }
+  },
+  "unit": {
+    "armor": {
+      "amphibious_armor": {
+        "need": {
+          "amphibious_tank_equipment": 50
+        }
+      },
+      "heavy_armor": {
+        "need": {
+          "heavy_tank_equipment": 40
+        }
+      },
+      "heavy_sp_anti_air_brigade": {
+        "need": {
+          "heavy_tank_aa_equipment": 8
+        }
+      },
+      "heavy_sp_artillery_brigade": {
+        "need": {
+          "heavy_tank_artillery_equipment": 24
+        }
+      },
+      "heavy_tank_destroyer_brigade": {
+        "need": {
+          "heavy_tank_destroyer_equipment": 20
+        }
+      },
+      "light_armor": {
+        "need": {
+          "light_tank_equipment": 60
+        }
+      },
+      "light_sp_anti_air_brigade": {
+        "need": {
+          "light_tank_aa_equipment": 15
+        }
+      },
+      "light_sp_artillery_brigade": {
+        "need": {
+          "light_tank_artillery_equipment": 36
+        }
+      },
+      "light_tank_destroyer_brigade": {
+        "need": {
+          "light_tank_destroyer_equipment": 30
+        }
+      },
+      "medium_armor": {
+        "need": {
+          "medium_tank_equipment": 50
+        }
+      },
+      "medium_sp_anti_air_brigade": {
+        "need": {
+          "medium_tank_aa_equipment": 12
+        }
+      },
+      "medium_sp_artillery_brigade": {
+        "need": {
+          "medium_tank_artillery_equipment": 36
+        }
+      },
+      "medium_tank_destroyer_brigade": {
+        "need": {
+          "medium_tank_destroyer_equipment": 24
+        }
+      },
+      "modern_armor": {
+        "need": {
+          "modern_tank_equipment": 50
+        }
+      },
+      "modern_sp_anti_air_brigade": {
+        "need": {
+          "modern_tank_aa_equipment": 12
+        }
+      },
+      "modern_sp_artillery_brigade": {
+        "need": {
+          "modern_tank_artillery_equipment": 40
+        }
+      },
+      "modern_tank_destroyer_brigade": {
+        "need": {
+          "modern_tank_destroyer_equipment": 24
+        }
+      },
+      "super_heavy_armor": {
+        "need": {
+          "super_heavy_tank_equipment": 15
+        }
+      },
+      "super_heavy_sp_anti_air_brigade": {
+        "need": {
+          "super_heavy_tank_aa_equipment": 4
+        }
+      },
+      "super_heavy_sp_artillery_brigade": {
+        "need": {
+          "super_heavy_tank_artillery_equipment": 12
+        }
+      },
+      "super_heavy_tank_destroyer_brigade": {
+        "need": {
+          "super_heavy_tank_destroyer_equipment": 7
+        }
+      }
+    },
+    "infantry": {
+      "anti_air_brigade": {
+        "need": {
+          "anti_air_equipment": 30
+        }
+      },
+      "anti_tank_brigade": {
+        "need": {
+          "anti_tank_equipment": 36
+        }
+      },
+      "artillery_brigade": {
+        "need": {
+          "artillery_equipment": 36
+        }
+      },
+      "bicycle_battalion": {
+        "need": {
+          "infantry_equipment": 100,
+          "support_equipment": 10
+        }
+      },
+      "infantry": {
+        "need": {
+          "infantry_equipment": 100
+        }
+      },
+      "marine": {
+        "need": {
+          "infantry_equipment": 150
+        }
+      },
+      "mountaineers": {
+        "need": {
+          "infantry_equipment": 140
+        }
+      },
+      "paratrooper": {
+        "need": {
+          "infantry_equipment": 130
+        }
+      },
+      "rocket_artillery_brigade": {
+        "need": {
+          "rocket_artillery_equipment": 36
+        }
+      }
+    },
+    "mobile": {
+      "amphibious_mechanized": {
+        "need": {
+          "amphibious_mechanized_equipment": 50,
+          "infantry_equipment": 100
+        }
+      },
+      "cavalry": {
+        "need": {
+          "infantry_equipment": 120
+        }
+      },
+      "mechanized": {
+        "need": {
+          "infantry_equipment": 100,
+          "mechanized_equipment": 50
+        }
+      },
+      "mot_anti_air_brigade": {
+        "need": {
+          "anti_air_equipment": 30,
+          "motorized_equipment": 50
+        }
+      },
+      "mot_anti_tank_brigade": {
+        "need": {
+          "anti_tank_equipment": 36,
+          "motorized_equipment": 50
+        }
+      },
+      "mot_artillery_brigade": {
+        "need": {
+          "artillery_equipment": 36,
+          "motorized_equipment": 50
+        }
+      },
+      "mot_rocket_artillery_brigade": {
+        "need": {
+          "motorized_equipment": 50,
+          "rocket_artillery_equipment": 36
+        }
+      },
+      "motorized": {
+        "need": {
+          "infantry_equipment": 100,
+          "motorized_equipment": 50
+        }
+      },
+      "motorized_rocket_brigade": {
+        "need": {
+          "motorized_equipment": 15,
+          "motorized_rocket_equipment": 20
+        }
+      }
+    },
+    "support": {
+      "anti_air": {
+        "need": {
+          "anti_air_equipment": 20
+        }
+      },
+      "anti_tank": {
+        "need": {
+          "anti_tank_equipment": 24
+        }
+      },
+      "artillery": {
+        "need": {
+          "artillery_equipment": 12
+        }
+      },
+      "engineer": {
+        "need": {
+          "infantry_equipment": 10,
+          "support_equipment": 30
+        }
+      },
+      "field_hospital": {
+        "need": {
+          "motorized_equipment": 20,
+          "support_equipment": 30
+        }
+      },
+      "logistics_company": {
+        "need": {
+          "motorized_equipment": 10,
+          "support_equipment": 20
+        }
+      },
+      "maintenance_company": {
+        "need": {
+          "support_equipment": 25
+        }
+      },
+      "military_police": {
+        "need": {
+          "infantry_equipment": 40,
+          "support_equipment": 10
+        }
+      },
+      "recon": {
+        "need": {
+          "infantry_equipment": 40,
+          "support_equipment": 10
+        }
+      },
+      "rocket_artillery": {
+        "need": {
+          "rocket_artillery_equipment": 24
+        }
+      },
+      "signal_company": {
+        "need": {
+          "motorized_equipment": 10,
+          "support_equipment": 20
+        }
+      }
+    }
+  }
+}
