@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-IMG_PATH="$HOME/.steam/steam/steamapps/common/Hearts of Iron IV/gfx/interface/technologies"
+IMG_PATH="$HOME/.steam/steam/steamapps/common/Hearts of Iron IV/gfx/interface/technologies/"
 
 sed 's/ *//g' index_equipement.txt | while read line
 do
@@ -21,3 +21,24 @@ do
 	fi
 done
 
+
+
+IMG_PATH="$HOME/.steam/steam/steamapps/common/Hearts of Iron IV/gfx/interface/counters/divisions_large/"
+
+sed 's/ *//g' index_unit.txt | while read line
+do
+	echo "$line"
+	family=`echo $line | cut -d ':' -f 1`
+	unit=`echo $line | cut -d ':' -f 2`
+	unit_img=`echo $line | cut -d ':' -f 3`
+	path="../../img/unit/$family/"
+	mkdir -p $path
+	img_source="`find \"$IMG_PATH\" -name $unit_img`"
+	convert "$img_source" $path/$unit_img.png
+done
+
+echo "factory.png"
+IMG_PATH="$HOME/.steam/steam/steamapps/common/Hearts of Iron IV/gfx/interface/factory_icon.dds"
+path="../../img/misc/"
+mkdir -p $path
+convert "$IMG_PATH" "$path/factory.png"
