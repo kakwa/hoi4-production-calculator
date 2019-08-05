@@ -10,7 +10,7 @@ do
 	eq_type=`echo $line | cut -d ':' -f 2`
 	eq_img=`echo $line | cut -d ':' -f 3`
 	eq_img_addon=`echo $line | cut -d ':' -f 4`
-	path="../../img/equipement/$year/"
+	path="../../public/img/equipement/$year/"
 	mkdir -p $path
 	img_source="`find \"$IMG_PATH\" -name $eq_img`"
 	convert "$img_source" $path/$eq_type.png
@@ -31,14 +31,14 @@ do
 	family=`echo $line | cut -d ':' -f 1`
 	unit=`echo $line | cut -d ':' -f 2`
 	unit_img=`echo $line | cut -d ':' -f 3`
-	path="../../img/unit/$family/"
+	path="../../public/img/unit/$family/"
 	mkdir -p $path
 	img_source="`find \"$IMG_PATH\" -name $unit_img`"
-	convert "$img_source" $path/$unit_img.png
+	convert "$img_source" $path/$unit.png
 done
 
 echo "factory.png"
 IMG_PATH="$HOME/.steam/steam/steamapps/common/Hearts of Iron IV/gfx/interface/factory_icon.dds"
-path="../../img/misc/"
+path="../../public/img/misc/"
 mkdir -p $path
 convert "$IMG_PATH" "$path/factory.png"
